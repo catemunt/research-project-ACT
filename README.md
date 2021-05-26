@@ -1,4 +1,7 @@
 # 289312 Independent Research Project
+
+##### By Cate Munt 19031686
+
 ## The Project
 
 I used this Creative Tech Project to further the development of my Major Project.  My idea is to use physical computing to represent data in the project coming from the physical interactions from the audience and from the data held in the Unreal project. My Major Project, "The Train Of Many Stations" is an immersive art and technology installation where the audience enters a train carriage and are transported to different worlds, all from inside the train. It will use a combination of a custom-built interactive set and real-time rendering via Unreal Engine. We also aim to include interactive elements to further immerse and engage the audience. These interactions include having ambient lighting in the train that responds to the colour data from the world that is being travelled through and also having set lighting cycles that are triggered in different worlds, that create different ambiences. Upon the completion of this project, I hope to have a working prototype of the lighting procedures and ambient lighting that is triggered by a moving scene in Unreal. 
@@ -106,3 +109,12 @@ https://drive.google.com/drive/folders/1Zou0pgVuV9yFr9vAb82hs62U4yca4bFn?usp=sha
 
 #### Level Models:
 * https://quixel.com/megascans/
+
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
