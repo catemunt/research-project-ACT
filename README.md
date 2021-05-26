@@ -1,5 +1,5 @@
 # 289312 Independent Research Project
-## The Project:
+## The Project
 I want to use this Creative Tech Project to further the development of my Major Project.  My idea is to use physical computing to represent data in the project coming from the physical interactions from the audience and from the data held in the Unreal project. My Major Project, "The Train Of Many Stations" is an immersive art and technology installation where the audience enters a train carriage and are transported to different worlds, all from inside the train. It will use a combination of a custom-built interactive set and real-time rendering via Unreal Engine. We also aim to include interactive elements to further immerse and engage the audience. These interactions include having ambient lighting in the train that responds to the colour data from the world that is being travelled through and also having set lighting cycles that are triggered in different worlds, that create different ambiences. Upon the completion of this project, I hope to have a working prototype of the lighting procedures and ambient lighting that is triggered by a moving scene in Unreal. 
 
 ## The Tech
@@ -20,6 +20,16 @@ Arduino is an open-source electronics platform based on easy-to-use hardware and
 #### Addressable Lights:
 I plan to use addressable lighting (probably strips) to represent the world colours in the installation. I have been looking into using Adafruit Neopixels. 
 
+## Development
+* The next step from the first prototype was to get the second LED strip to work and respond to the code.
+* Once I got them both working, it was time to get them working and responding to the code at the same time. 
+* This worked (as shown below) but I then ran into a new unexpected problem, where the lights would react to the code if the other light was in the process of changing or being in a delay phase. 
+
+![dev gif](https://https://github.com/catemunt/research-project-ACT/blob/main/img/developmentGIF.gif "TEST")
+
+* This issue is with the delay function, where the serial is seen as busy when carrying out the delay. 
+* I did some research and found that this is a common problem with Arduino, and can be solved with the time function millis().
+* I rewrote my code using the milis() function as a timekeeper, allowing for both strips to be carrying out different functions at the same time.
 
 
 ## References
